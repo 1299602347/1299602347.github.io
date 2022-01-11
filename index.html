@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>主页</title>
+	<link rel="stylesheet" href="CSS/indexstyle.css">
+	<link rel="stylesheet" href="CSS/lb.css">
+</head>
+
+<body>
+	<div class="menu">
+		<div class="center">
+			<ul class="ul-list">
+				<li>
+					<a href="index.html">关于我们</a>
+				</li>
+				<li>
+					<a href="./building_display.html">建筑展示</a>
+				</li>
+				<li>
+					<a href="history.html">时光轴</a>
+				</li>
+				<li>
+					<a href="join.html">加入我们</a>
+				</li>
+				<li>
+					<a href="#">更多</a>
+					<ol class="ol-list">
+						<li><a href="">赞助</a></li>
+						<li><a href="">个人博客</a></li>
+						<li><a href="">论坛（架设中）</a></li>
+						<li><a href="">留言墙</a></li>
+					</ol>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<img src="img/banner.png" alt="">
+		<div class="word">
+			<a href="#">关于我们</a>
+			<p style="font-size: 15px; line-height: 2; font-weight: 800;">
+				这是一个小型Minecraft服务器，在这里<br>
+				你可以同许多志同道合的玩家一起分享生
+				<br>
+				存心得，研究红石科技，探讨建筑布局。
+				<br>
+				<br>
+				我们真心欢迎你的加入！但是为了避免不
+				<br>
+				必要的麻烦，需要您完成一个简短的问卷
+				<br>调查！
+			</p>
+		</div>
+	</div>
+	<div class="title">
+		<h1>在这里，你可以干什么？</h1>
+	</div>
+	<div class="page-content">
+		<div class="card">
+			<div class="content">
+				<h2 class="title">红石科技</h2>
+				<p class="copy">服务器对于生电基本没有任何限制(在CPU能够承受的范围之内即可)，欢迎加入一同来探讨红石机械</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="content">
+				<h2 class="title">建筑布局</h2>
+				<p class="copy">服务器多数玩家偏向于建筑设计，欢迎加入一同来探讨建筑布局，在这里留下属于你的建筑痕迹。</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="content">
+				<h2 class="title">结伴交友</h2>
+				<p class="copy">在消遣娱乐的同时，你也可以同群友们交流除游戏之外的任何话题，在这里不仅仅是游戏，还可以是你的生活树洞。</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="content">
+				<h2 class="title">探索未知</h2>
+				<p class="copy">服务器提供了平台，但并没有脱离游戏的初衷。
+					<br>
+					Explore Dream Dicover.
+				</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="title">
+		<h1>服务器概览</h1>
+	</div>
+	<div class="advertisement1">
+		<h3 style="font-size: 25px;font-weight: 400;margin-top: 10%;margin-left: 30%;">简介 </h3>
+
+	</div>
+	<div class="lb-box" id="lb-1">
+		<script src="js/lb.js"></script>
+		<script>
+			window.onload = function () {
+				// 轮播选项
+				const options = {
+					id: 'lb-1',              // 轮播盒ID
+					speed: 600,              // 轮播速度(ms)
+					delay: 3000,             // 轮播延迟(ms)
+					direction: 'left',       // 图片滑动方向
+					moniterKeyEvent: true,   // 是否监听键盘事件
+					moniterTouchEvent: true  // 是否监听屏幕滑动事件
+				}
+				const lb = new Lb(options);
+				lb.start();
+			}
+		</script>
+		<!-- 轮播内容 -->
+		<div class="lb-content">
+			<div class="lb-item active">
+				<img src="images/t1.png" alt="picture loss">
+			</div>
+			<div class="lb-item">
+				<img src="images/t2.png" alt="picture loss">
+			</div>
+			<div class="lb-item">
+				<img src="images/t3.png" alt="picture loss">
+
+			</div>
+			<div class="lb-item">
+				<img src="images/t4.png" alt="picture loss">
+			</div>
+		</div>
+		<!-- 轮播标志 -->
+		<ol class="lb-sign">
+			<li class="active">1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ol>
+		<!-- 轮播控件 -->
+		<div class="lb-ctrl left">＜</div>
+		<div class="lb-ctrl right">＞</div>
+	</div>
+	</div>
+	<div class="advertisement2">
+		<p>常驻玩家
+		<p>
+		<div class="player">
+			<img src="images/face1.png" alt="">
+		</div>
+		<div class="player">
+			<img src="images/face2.png" alt="">
+		</div>
+		<div class="player">
+			<img src="images/face3.png" alt="">
+		</div>
+		<div class="player">
+			<img src="images/face4.png" alt="">
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="download">
+			<a href="" style="text-decoration: none;">
+				下载客户端
+			</a>
+		</div>
+		<div class="contact">
+			<a href="" style="text-decoration: none;">
+				联系我们
+			</a>
+		</div>
+		<div class="list">
+			<ul>
+				<li>
+					<a href="#" style="font-size: 22px;">游戏相关网站</a>
+				</li>
+				<li><a href="#">我的世界中文论坛</a></li>
+				<li><a href="#">MC百科</a></li>
+				<li><a href="#">ZuiMC论坛</a></li>
+			</ul>
+		</div>
+		<div class="list">
+			<ul>
+				<li>
+					<a href="#" style="font-size: 22px;">官方网站</a>
+				</li>
+				<li><a href="#">我的世界中国版</a></li>
+				<li><a href="#">Minecraft</a></li>
+			</ul>
+		</div>
+		<div class="list">
+			<ul>
+				<li>
+					<a href="#" style="font-size: 22px;">联系方式</a>
+				</li>
+				<li><a href="#">QQ群：123456789</a></li>
+				<li><a href="#">Email:123456@123.com</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+</html>
